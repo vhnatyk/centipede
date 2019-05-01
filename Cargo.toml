@@ -10,7 +10,7 @@ authors = [
 crate-type = ["lib"]
 
 [dependencies]
-curv = { git = "https://github.com/vhnatyk/curv", features =  ["ec_secp256k1"]}
+curv = { git = "https://github.com/vhnatyk/curv", features = ["ec_secp256k1"], branch="vhnat/mpecdsa_core_extraction" }
 bulletproof = { git = "https://github.com/vhnatyk/bulletproofs" }
 
 serde_derive = "1.0"
